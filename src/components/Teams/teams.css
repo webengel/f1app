@@ -1,0 +1,52 @@
+@import '../../css/flags.css';
+@import '../../css/cars.css';
+
+#teams .main.leftside {
+	padding:0;
+}
+#teams .main.leftside section {
+	padding-top:3px;
+	background-color:lightgrey;
+	padding:0;
+	margin:0;
+}
+#teams .main.leftside section ul,
+#teams .main.leftside section ul li {
+	padding:0;
+	margin:0;
+}
+#teams .main.leftside section ul {
+	padding-top:2px;
+}
+.team-wrapper {
+	display: table;
+    table-layout: fixed;
+    width: 100%;
+    margin-bottom:3px;
+}
+.team-details {
+	display: table-cell;
+    padding: 0 1rem 1rem;
+    width: 46.33%;
+    vertical-align: top;
+    height: 150px;
+    background-color:#fff;
+}
+#teams .team-img {
+	    display: table-cell;
+    height: 100%;
+    overflow: hidden;
+    vertical-align: top;
+    width: 53.67%;
+
+    background-repeat:no-repeat;
+	background-position: center center;
+	background-size:cover;
+}
+.flag {
+	transform: translateY(8px);
+}
+#team_ranking {
+	height:300px;
+	box-sizing: border-box;
+}

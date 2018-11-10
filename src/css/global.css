@@ -1,0 +1,177 @@
+/* Global styles */ 
+
+
+
+div, p, h1, h2, h3, h4, h5, li, ul, ol {
+	box-sizing: border-box;
+}
+a {
+	text-decoration:none;
+}
+
+/* Display
+   ========================================================================== */
+
+.noshow {
+	display:none;
+}
+.hide {
+	visibility:hidden;
+}
+.block {
+	display:block;
+}
+.inlineblock {
+	display:inline-block;
+}
+.inline {
+	display:inline;
+}
+/* Flexbox shorts
+   ========================================================================== */
+
+.flex {
+	display:flex;
+	flex-direction: column;
+}
+.space-around {
+	justify-content:space-around;
+}
+.space-between {
+	justify-content:space-between;
+}
+.fg1 {
+	flex-grow: 1;
+}
+.fg2 {
+	flex-grow: 2;
+}
+.fg3 {
+	flex-grow: 3;
+}
+
+/* Aligment/positioning of text content elements
+   ========================================================================== */
+
+.tr {
+	text-align:right;
+}
+.tl {
+	text-align:left;
+} 
+.tc {
+	text-align:center;
+} 
+/*  center text horizontally */
+.cth {
+	text-align:center;
+}
+/*  center block horizontally */
+.cbh {
+	display:flex;
+	justify-content:center;
+}
+/*  center text vertically */
+.ctv {
+	vertical-align:center;
+}
+/*  center block vertically */
+.cbv {
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+}
+.fr {
+	float:right;
+}
+.fl {
+	float:left;
+}
+
+/* Width and heigth of block elements
+   ========================================================================== */
+
+
+.h100 {
+	height:100%;
+}
+.h50 {
+	height:50%;
+}
+
+.w100 {
+	width:100%;
+}
+.w50 {
+	width:50%;
+}
+.w33 {
+	width:33.333333%;
+}
+.w25 {
+	width:25%;
+}
+.w20 {
+	width:20%;
+}
+
+/* Colors
+   ========================================================================== */
+
+
+.bgred {
+	background-color:red;
+}
+.bgblack {
+	background-color:#000;
+}
+.bgwhite {
+	background-color:#fff;
+}
+a {
+	color:inherit;
+}
+
+/* Lists 
+   ========================================================================== */
+
+ul.nostyle {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+}
+
+
+ul.inlinelist {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.inlinelist li{
+	float: left;
+}
+
+ul.inlinelist li a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+ul.inlinelist li a:hover {
+    background-color: #111111;
+}
+
+/* Media queries
+   ========================================================================== */
+
+
+@media (min-width:600px){
+	.flex {
+	    flex-direction: row;
+	}
+}
+@media (min-width:900px){
+
+}

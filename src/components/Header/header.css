@@ -1,0 +1,112 @@
+header {
+	position:fixed;
+	top:0;
+	background-color:#000;
+	color:red;
+	width:100%;
+	height:120px;
+}
+.sitetitle {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:-1;
+}
+.sitetitle h1 {
+	color:rgba(0,0,0,0.0);
+}
+#logo img {
+	width: 80px;
+}
+
+#topheader {
+	height:70px;
+	flex-direction:row;
+}
+#topheader > div {
+	flex-grow: 1;
+	padding:0 0.5rem;
+}
+#topheader ul.inlinelist li a{
+	padding: 10px;
+}
+#bottomheader > div {
+	width:100%;
+	padding:0 0.5rem;
+}
+#bottomheader {
+	height:50px;
+	color:#fff;
+}
+
+#topheader div.navcontainer{
+    justify-content: flex-end;
+}
+.seasonselect {
+	z-index: 2;
+}
+.seasontitle {
+	position:fixed;
+	width:100%;
+	top:80px;
+	left:0;
+	text-align:left;
+}
+.seasontitle h2 {
+	margin:0;
+}
+.seasonmenu-container {
+
+	}
+header h1 {
+	text-align: center;
+	color:red;
+}
+header h2 {
+	text-align: left;
+	color:#FFF;
+}
+#seasonheader {
+	background-color:red;
+	color:#FFF;
+}
+
+#sections ul {
+	float:right;
+	font-weight:600;
+	font-variant: all-petite-caps;
+}
+#sections ul li a {
+	color:red;
+}
+#sections ul li:hover a  {
+	color:#FFF;
+}
+
+/* BREAKPOINTS at 600, 900, 1200, 1800 
+ * 
+ * https://medium.freecodecamp.org/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862 
+ */
+@media (min-width:600px) {
+	header h2 {
+		text-align: center;
+	}
+	.seasonmenu-container {
+		display:none;
+	}
+	.seasonsbutton {
+		display: none;
+	}
+}
+@media (min-width:900px) {
+	.sitetitle h1 {
+		color:red;
+	}
+	#topheader > div.navcontainer,
+	#bottomheader > div.seasonselect {
+		padding:0 1.5rem
+	}
+}
+@media (min-width:1200px) {
+
+}

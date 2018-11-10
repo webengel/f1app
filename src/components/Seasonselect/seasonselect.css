@@ -1,0 +1,12 @@
+#SeasonSelect {
+	display: none;
+}
+
+@media (min-width:600px) {
+	#SeasonSelect {
+		height: 100%;
+		display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+	}
+}

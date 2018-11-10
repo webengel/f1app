@@ -1,0 +1,66 @@
+
+@import 'my_normalize.css';
+@import 'global.css';
+@import 'main.css';
+@import 'flags.css';
+@import 'fonts.css';
+
+
+
+html, body, #root, .App, section {
+	height:100%;
+}
+.App {
+  text-align: center;
+  display:flex;
+  flex-direction:column;
+  justify-content:stretch;
+}
+
+ul.inlinelist {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.inlinelist li{
+	float: left;
+}
+
+ul.inlinelist li a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+ul.inlinelist li a:hover {
+    background-color: #111111;
+}
+
+.container {
+	width: 100%;
+    margin: auto;
+}
+
+@media (min-width:600px){
+.container {
+	width: 100%;
+	}
+}
+
+@media (min-width:900px){
+.container {
+		width: 90%;
+	}
+}
+@media (min-width: 1200px) {
+	.container {
+		width: 85%;
+	}
+}
+@media (min-width: 1800px) {
+	.container {
+		width: 75%;
+	}
+}

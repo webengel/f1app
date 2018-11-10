@@ -1,0 +1,53 @@
+section .aside section#favorites-section {
+  background-color:red;
+}
+
+#favorites {
+	width: 100%;
+  padding-right: 0.5rem;
+}
+/*#favorites .favorite {
+  padding: 0.2rem;
+  display: flex;
+  align-items: stretch;
+  align-content: center;
+  height: 1.5rem;
+  border-bottom: 1px solid red;
+}*/
+#favorites .favorite {
+  padding: 0.2rem;
+  display: flex;
+  flex-direction:row;
+  height: 1.5rem;
+  border-bottom: 1px solid #000;
+}
+#favorites .favorite:hover {
+  background-color:red;
+  color:#fff;
+  font-weight:600;
+}
+#favorites .favorite .name {
+  flex: 1;
+}
+#favorites .favorite svg {
+   margin-top: 0.3rem
+}
+#favorites .favorite .minus {
+	display:none;
+}
+#favorites .favorite:hover .minus {
+	display:inline-block;
+	color:#FFF;
+}
+#favorites .favorite:hover .heart {
+	display:none;
+}
+
+
+
+
+@media (min-width: 900px){
+	#favorites {
+		background-color:rgba(255,0,0,0.0);
+	}
+}

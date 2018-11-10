@@ -1,0 +1,14 @@
+section .aside section#winners-section {
+	background-color:yellow;
+}
+section .aside section .icon {
+	float:right;
+}
+
+#winners .winner {
+  padding: 0.2rem;
+  display: flex;
+  flex-direction:row;
+  height: 1.5rem;
+  border-bottom: 1px solid #000;
+}

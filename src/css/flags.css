@@ -1,0 +1,85 @@
+/* Styles for flag icons 
+   ========================================================================== */
+
+.flag {
+  width: 32px;
+  height:32px;
+  display:inline-block;
+  margin:0 5px;
+  align-content:center;
+  background-repeat: no-repeat;
+  max-width:100%;
+  background-size:cover; 
+}
+.american {
+  background-image: url("https://www.countryflags.io/it/shiny/32.png");
+}
+.australian {
+  background-image: url("https://www.countryflags.io/au/shiny/32.png");
+}
+.austrian {
+  background-image: url("https://www.countryflags.io/at/shiny/32.png");
+}
+.belgian {
+  background-image: url("https://www.countryflags.io/be/shiny/32.png");
+}
+.brazilian {
+  background-image: url("https://www.countryflags.io/br/shiny/32.png");
+}
+.british {
+  background-image: url("https://www.countryflags.io/gb/shiny/32.png");
+}
+.canadian {
+  background-image: url("https://www.countryflags.io/ca/shiny/32.png");
+}
+.danish {
+  background-image: url("https://www.countryflags.io/dk/shiny/32.png");
+}
+.dutch {
+  background-image: url("https://www.countryflags.io/nl/shiny/32.png");
+}
+.finnish {
+  background-image: url("https://www.countryflags.io/fi/shiny/32.png");
+}
+.french {
+  background-image: url("https://www.countryflags.io/fr/shiny/32.png");
+}
+.german {
+  background-image: url("https://www.countryflags.io/ge/shiny/32.png");
+}
+.indonesian {
+  background-image: url("https://www.countryflags.io/id/shiny/24.png");
+}
+.italian {
+  background-image: url("https://www.countryflags.io/it/shiny/24.png");
+}
+.indian {
+  background-image: url("https://www.countryflags.io/in/shiny/24.png");
+}
+.japanese {
+  background-image: url("https://www.countryflags.io/jp/shiny/24.png");
+}
+.mexican {
+  background-image: url("https://www.countryflags.io/mx/shiny/24.png");
+}
+.newzealander {
+  background-image: url("https://www.countryflags.io/nz/shiny/24.png");
+}
+.polish {
+  background-image: url("https://www.countryflags.io/pl/flat/24.png");
+}
+.spanish {
+  background-image: url("https://www.countryflags.io/es/flat/24.png");
+}
+.russian {
+  background-image: url("https://www.countryflags.io/rs/flat/24.png");
+}
+.swedish {
+  background-image: url("https://www.countryflags.io/se/flat/24.png");
+}
+.swiss {
+  background-image: url("https://www.countryflags.io/ch/flat/24.png");
+}
+.venezuelan {
+  background-image: url("https://www.countryflags.io/ve/flat/24.png");
+}

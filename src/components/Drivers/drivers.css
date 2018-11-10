@@ -1,0 +1,130 @@
+
+
+.driver {
+  padding: 0.2rem;
+  display: flex;
+  align-items: stretch;
+  align-content: center;
+  flex-direction:row;
+}
+.driverdetails {
+	min-height:70px;
+	height:auto;
+	padding: 0.7rem 0.4rem 0.6rem;
+}
+.flag {
+  margin-right:10px;
+  text-align:right;
+}
+.constructorname {
+    align-items: center;
+}
+.addfavo, .trophy {
+  width:30px;
+  text-align:right;
+  margin:0.5rem;
+}
+.driver .trophy {
+	display:none;
+}
+.driver.winner .trophy {
+	display:inline-block;
+}
+.driver.winner .trophy svg {
+	color:black;
+}
+.driver.recent.winner .trophy svg {
+	color:yellow;
+}
+.driver .name {
+	font-size: 1rem;
+	flex-grow: 1;
+}
+.name span{
+	display:inline-block;
+	padding:0 0.5rem;
+}
+.name span.noshow{
+	display:none;
+}
+.driver .flag {
+	transform: translateY(0px);
+}
+.driver svg {
+  color:lightgrey;
+}
+.driver:hover {
+  background-color:red;
+  color:#000;
+}
+.driver:hover svg {
+  color:#fff;
+}
+.driver.recent:hover svg {
+  color:red;
+}
+.driver .name {
+	display: flex;
+}
+.driver .name > span {
+  	align-self: center;
+}
+.driver.recent {
+	display:inline-block;
+	width:47%;
+	margin:0.2rem;
+	padding:0;
+
+}
+.driver.recent .driverdetails {
+	border-left:4px solid red;
+	border-top:4px solid red;
+}
+.driver.recent .driverimg{
+	background-size: cover;
+	height:100px;
+	text-align:right;
+}
+.driver.recent .addfavo {
+  width: 100%;
+  padding: 0.5rem 0.5rem;
+  margin:0;
+}
+.driver.recent .name {
+	font-size: 1rem;
+}
+.driver.recent.winner .trophy {
+	margin:0 0.5rem;
+}
+
+.driver.favo svg {
+	color:red;
+}
+.driver:hover svg {
+	color:#fff;
+}
+.driver.recent.favo svg {
+	color:red;
+}
+.main.leftside .driver li:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+.main.leftside .driver.recent li:nth-child(odd) {
+    background-color: rgba(0,0,0,0.0);
+}
+@media (min-width: 600px){
+	.name span.noshow{
+		display:inline-block;
+	}
+}
+
+@media (min-width:900px){
+	.driver.recent {
+		width:30%;
+	}
+}
+@media (min-width:1200px){
+	.driver .name {
+		font-size: 1.2rem;
+	}
+}

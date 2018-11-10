@@ -1,0 +1,14 @@
+#races {
+	
+}
+#races table {
+	width: 100%;
+	border-spacing: 0;
+}
+#races table  tr td,
+#races table  tr th {
+	padding:0.7rem;
+}
+tbody tr:nth-child(odd) {
+   background-color: #f4f4f4;
+}
