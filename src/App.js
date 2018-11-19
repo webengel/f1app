@@ -58,6 +58,7 @@ class App extends Component {
         this.fetchDriverStandings();
     }      
   }
+  // alteration to test git
   // Fetch Driver data from API 
   fetchDrivers() {
       // we just want data from one specific year, i.e. the year that is selected by the user
