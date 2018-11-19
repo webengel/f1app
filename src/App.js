@@ -59,6 +59,7 @@ class App extends Component {
     }      
   }
   // alteration to test git
+  // another change made for testing
   // Fetch Driver data from API 
   fetchDrivers() {
       // we just want data from one specific year, i.e. the year that is selected by the user
